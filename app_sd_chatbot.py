@@ -11,7 +11,7 @@ load_dotenv()
 import os
 
 # Directly set the OpenAI API key
-openai_api_key = "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"
+openai_api_key ="###"
 
 # Initialize the ChatOpenAI class with the API key
 chat = ChatOpenAI(temperature=0.5, openai_api_key=openai_api_key)
